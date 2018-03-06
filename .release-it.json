@@ -10,5 +10,6 @@
   },
   "npm": {
 	"publish": true
-  }
+  },
+  "requireUpstream": false
 }
