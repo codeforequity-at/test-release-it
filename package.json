@@ -1,0 +1,23 @@
+{
+  "name": "test-release-it",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+	"release": "./node_modules/.bin/release-it --dry-run",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeforequity-at/test-release-it.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codeforequity-at/test-release-it/issues"
+  },
+  "homepage": "https://github.com/codeforequity-at/test-release-it#readme",
+  "devDependencies": {
+    "release-it": "^7.2.1"
+  }
+}
